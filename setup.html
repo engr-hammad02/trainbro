@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Train Bro - Setup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏋️‍♂️ Train Bro Setup</h1>
+        <p>Enter the max reps or hold time you can currently do:</p>
+
+        <form id="setupForm">
+            <div class="form-group">
+                <label>Push-ups:</label>
+                <input type="number" name="pushups" required min="1">
+            </div>
+            <div class="form-group">
+                <label>Squats:</label>
+                <input type="number" name="squats" required min="1">
+            </div>
+            <div class="form-group">
+                <label>Plank (seconds):</label>
+                <input type="number" name="plank" required min="5">
+            </div>
+            <div class="form-group">
+                <label>Wall Sit (seconds):</label>
+                <input type="number" name="wallsit" required min="5">
+            </div>
+            <div class="form-group">
+                <label>Dips (Chair/Low Surface):</label>
+                <input type="number" name="dips" required min="1">
+            </div>
+            <div class="form-group">
+                <label>Handstand Holds (against wall) (seconds):</label>
+                <input type="number" name="handstand" required min="5">
+            </div>
+
+            <button type="submit" class="btn">Save & Start Training 🚀</button>
+        </form>
+    </div>
+
+    <script src="setup.js"></script>
+</body>
+</html>
